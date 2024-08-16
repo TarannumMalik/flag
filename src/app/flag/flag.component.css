@@ -1,0 +1,36 @@
+/* canvas.component.css */
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  button {
+    position: absolute;
+    top: 5rem; 
+    left: 46%; 
+    z-index: 1; 
+    cursor: pointer;
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    background:  linear-gradient(to bottom right,rgba(254, 197, 140, 0.8),white, rgba(192, 240, 188, 0.5));
+    border: 1px solid gray;
+  }
+  button:hover{
+    background:  linear-gradient(to bottom right,rgba(255,153,51,0.8),white, rgba(123, 205, 116, 0.5));
+  transform: scale(1.01);
+  }
+  canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -0.5rem;
+    width: 100%;
+    height: 100%;
+  }
+  
